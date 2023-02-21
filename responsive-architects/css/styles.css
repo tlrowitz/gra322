@@ -148,7 +148,6 @@ footer h2 {
     }
     nav {
         display: block !important;
-        max-height: 200px;
         width: auto;
     }
     nav ul {
