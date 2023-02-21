@@ -33,6 +33,7 @@ nav {
     background-color: rgba(255,255,255,.4);
     display: none;
     padding: 1rem;
+    width: 100%;
 }
 
 nav ul {
@@ -69,6 +70,7 @@ h1 {
 
 .menu-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 

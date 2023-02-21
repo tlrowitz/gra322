@@ -1,5 +1,5 @@
 $('.menu-button').click(function(){
-    $('nav').toggleClass('open');
+    $('nav').fadeToggle();
 });
 
 // Initialize Animate before Scroll
