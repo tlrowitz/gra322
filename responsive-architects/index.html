@@ -14,10 +14,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
   <link rel="stylesheet" href="css/reset.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
   <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
@@ -66,17 +70,17 @@
 
 
         <!-- Figure holds an image and caption / alt describes image-->
-        <figure>
+        <figure data-aos="fade-up">
           <img src="img/project-1.jpg" alt="Ground level photo of two buildings with the blue sky behind." />
           <figcaption>Chaoyang</figcaption>
         </figure>
 
-        <figure>
+        <figure data-aos="fade-up" data-aos-delay="150">
           <img src="img/project-2.jpg" alt="" />
           <figcaption>Axel Towers</figcaption>
         </figure>
 
-        <figure>
+        <figure data-aos="fade-up" data-aos-delay="300">
           <img src="img/project-3.jpg" alt="" />
           <figcaption>B&B Expo Milano</figcaption>
         </figure>
@@ -89,7 +93,7 @@
 
   <section class="about">
     <div class="inner">
-    <h2>About the Studio</h2>
+    <h2 data-aos="fade-right">About the Studio</h2>
     <p>Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there--on a mote of dust suspended in a sunbeam.</p>
   </div>
   </section>
@@ -103,6 +107,7 @@
 
   <!-- Load Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 
