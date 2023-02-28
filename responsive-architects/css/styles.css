@@ -83,7 +83,7 @@ h1 {
 }
 
 .featured-work {
-    padding: 3rem 1rem;
+    padding: 20rem 1rem;
 }
 
 .featured-work h2 { /* descendant selector */
@@ -163,4 +163,16 @@ footer h2 {
     }
 }
 
-
+.jarallax {
+    position: relative;
+    z-index: 0;
+  }
+  .jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }

@@ -17,39 +17,58 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   color: white;
-  line-height: 54px;
+  line-height: 1;
   display: inline-block;
-  max-width: 280px;
+  max-width: 470px;
 }
 
 /*.menu-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+}*/
 
 .menu-button {
   background-color: rgba(255,255,255,.4);
   border: 1px solid transparent;
   line-height: 0;
   padding: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 nav {
   display: none;
-}*/
-
-.hero {
-  background: url('../img/Hero2.jpg');
-  background-size: cover;
-  background-position: center right;
-  height: 40vh;
 }
 
+.hero {
+  background: url('../img/LimitedEdition.jpg');
+  background-size: cover;
+  background-position: center right;
+  height: 60vw;
+  max-height: 95vh;
+  position: relative;
+}
+
+.logo {
+  max-height: 150px;
+  max-width: 150px;
+  position: absolute;
+  top:0;
+  left:0;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+
+}
 .title {
+  font-size: clamp(50px, 8vw, 90px);
   text-transform: uppercase;
-  padding-top: 10rem;
+  padding-bottom: 2rem;
   padding-left: 2rem;
+  position:absolute;
+  bottom:0;
+  left:0;
 }
 
 h2 {
@@ -183,6 +202,6 @@ footer p {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    height: 80vh;
+    /* height: 80vh; */
   }
 }
