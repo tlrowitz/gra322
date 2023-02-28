@@ -22,8 +22,25 @@ h1 {
   max-width: 280px;
 }
 
+/*.menu-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-button {
+  background-color: rgba(255,255,255,.4);
+  border: 1px solid transparent;
+  line-height: 0;
+  padding: 1rem;
+}
+
+nav {
+  display: none;
+}*/
+
 .hero {
-  background: url('../img/LimitedEdition.jpg');
+  background: url('../img/Hero2.jpg');
   background-size: cover;
   background-position: center right;
   height: 40vh;
@@ -70,7 +87,7 @@ p {
 .middle p {
   margin-left: 5rem;
   margin-top: 1rem;
-  padding-left:1rem;
+  padding-left: 1rem;
   padding-right: 3rem;
   border-left: 3px solid #707070;
 }
@@ -92,9 +109,15 @@ p {
 
 figcaption {
   padding-top: 3rem;
+  padding-bottom: 3rem;
   font-size: 18pt;
   font-weight: 400;
   color: #221F1F;
+}
+
+a {
+  display: block;
+  margin: auto;
 }
 
 .button {
@@ -104,14 +127,18 @@ figcaption {
   text-transform: uppercase;
   background-color: #831E2E;
   padding: 1rem;
+  width: 145px;
 }
+
 
 .login {
   font-size: 18pt;
   font-weight: 400;
   color: #221F1F;
-  text-align: center;
   border-bottom: 3px solid #831E2E;
+  width: 100px;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .social {
@@ -126,6 +153,7 @@ figcaption {
   color: white;
   font-size: 30pt;
 }
+
 footer {
   background-color: #831E2E;
   padding: 1rem;
@@ -136,4 +164,25 @@ footer p {
   font-weight: 400;
   color: white;
   text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+  .middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .crave {
+    max-width: 500px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: 80vh;
+  }
 }
