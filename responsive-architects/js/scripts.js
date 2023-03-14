@@ -21,3 +21,13 @@ $('.jarallax').jarallax({
     vertical: true,
     horizontal: false
   });
+
+  //Initallize tiny slider
+  var slider = tns({
+    container: '.my-slider',
+    items: 3,
+    slideBy: 'page',
+    autoplay: false,
+    controls: false,
+    mouseDrag: true,
+  });
