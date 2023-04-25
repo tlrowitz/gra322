@@ -1,3 +1,3 @@
 $('.menu-button').click(function(){
-    $('nav').fadeToggle();
+    $('.menu').fadeToggle();
 });

@@ -14,15 +14,36 @@ body {
     right: 0;
   }
 
-  .menu {
+menu {
     display: none;
   }
+
 
   .menu-nav {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-  }
+text-align: right;
+position:absolute;
+top: 0;
+right: 0;
+padding-top: 5rem;
+padding-right: 2rem;
+background-color: white;
+}
+
+  
+
+
+ .menu li {
+    padding-top: 1rem;
+    padding-bottom: 0;
+    font-size: 10pt;
+    
+    
+ } 
+
+    
 
 
 h1 {
@@ -127,6 +148,12 @@ p{
     padding-bottom: 2rem;
 }
 
+.video-alt {
+    padding-top: 1.5rem;
+    margin: auto;
+    padding-right: 3rem;
+}
+
 .snicker {
     margin: auto;
     padding-right: 3rem;
@@ -161,11 +188,7 @@ ul {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
       }
+
   }
 
-  @media screen and (min-width: 800px) {
-    .menu {
-        display:block !important;
-    }
-}
  
