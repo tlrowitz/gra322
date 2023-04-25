@@ -1,0 +1,171 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 3rem;
+}
+
+.menu-button {
+    font-size: 36px;
+    background-color: transparent;
+    border: none;
+    line-height: 0;
+    padding: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-nav {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+  }
+
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 5px;
+    padding-top: 7rem;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 500;
+    color: #707070;
+    max-width: 270pt;
+    line-height: 22pt;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 3px;
+    padding-top: 6rem;
+}
+
+.start {
+    padding-bottom: 1rem;
+  }
+
+  .start2 {
+    padding-bottom: 4rem;
+  }
+
+h4 {
+    font-size: 12pt;
+    font-weight: 400;
+    padding-top: 2rem;
+}
+
+li {
+    font-size: 12pt;
+    font-weight: 400;
+    padding-top: 2rem;
+    list-style-type: none;
+}
+
+a {
+    color:black;
+ 
+}
+
+p{
+    font-size: 12pt;
+    color: #707070;
+}
+
+.description {
+    color:black;
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+}
+
+.date {
+    padding-bottom: 4rem;
+}
+
+.code2 {
+    padding-top: 1rem;
+}
+
+.havana {
+    margin: auto;
+    padding-right: 3rem;
+}
+
+.psa {
+    margin: auto;
+    padding-right: 3rem;
+}
+
+.web {
+    margin: auto;
+    padding-right: 3rem;
+}
+
+.app {
+    margin: auto;
+    padding-right: 3rem;
+}
+
+.video {
+    margin: auto;
+    padding-right: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.snicker {
+    margin: auto;
+    padding-right: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+ul {
+    padding-left: 0;
+}
+
+
+.footnote {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 1000px) {
+    .div1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .div2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+    .div3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+  }
+
+  @media screen and (min-width: 800px) {
+    .menu {
+        display:block !important;
+    }
+}
+ 
